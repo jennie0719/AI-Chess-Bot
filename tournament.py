@@ -2,7 +2,7 @@ from chester.timecontrol import TimeControl
 from chester.tournament import play_tournament
 
 # Each string is the name/path to an executable UCI engine.
-players = ["./random_chess_bot.py", "./chsskawa.py"]
+players = ["./random_chess_bot.py", "./hachessware.py"]
 
 # Specify time and increment, both in seconds.
 time_control = TimeControl(initial_time=600, increment=0)
